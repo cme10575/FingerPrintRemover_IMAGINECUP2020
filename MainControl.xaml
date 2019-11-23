@@ -7,6 +7,23 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="White">
-        
+        <Button Background="#FF3A3A3A" Margin="50,170,500,0" VerticalAlignment="Top" FontFamily="HYGraphic" Height="40" BorderBrush="White">
+            <TextBlock Text="L O A D   I M A G E" Foreground="White" FontFamily="Arial Black" FontSize="15"/>
+        </Button>
+
+        <Grid Margin="0,100,430,160" Width="2" HorizontalAlignment="Right" >
+            <Border BorderBrush="#FFB0AFAF" BorderThickness="3"/>
+        </Grid>
+
+        <Grid Margin="30,10,30,65" VerticalAlignment="Bottom" Height="3">
+            <Border BorderBrush="#FF515151" BorderThickness="5"/>
+        </Grid>
+
+        <Image Name="myImage" Source="image/image1.jpg"  Width="330" HorizontalAlignment="Right" Margin="0,20,50,90" Stretch="Uniform"/>
+
+        <Button Background="#FF5B2083" Margin="0,0,40,15" Click="Button_Click" BorderBrush="White" HorizontalAlignment="Right" Width="200" VerticalAlignment="Bottom" Height="35">
+            <TextBlock Text="OK" Foreground="White" FontFamily="Arial Black" FontSize="15"/>
+        </Button>
+
     </Grid>
 </UserControl>

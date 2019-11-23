@@ -29,11 +29,9 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFFFFF">
-        <Grid.Effect>
-            <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
-        </Grid.Effect>
         <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="570" Width="1010">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
         </Grid>
