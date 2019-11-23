@@ -22,12 +22,14 @@ namespace FingerDePrint
     {
         TestImageControl testImageControl;
         MainControl mainControl;
+        SampleControl sampleControl;
 
         public MainWindow()
         {
             InitializeComponent();
             testImageControl = new TestImageControl();
             mainControl = new MainControl();
+            sampleControl = new SampleControl();
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -63,6 +65,8 @@ namespace FingerDePrint
                     GridMain.Children.Add(usc);
                     break;
                 default:
+                    usc = sampleControl;
+                    GridMain.Children.Add(usc);
                     break;
             }
         }

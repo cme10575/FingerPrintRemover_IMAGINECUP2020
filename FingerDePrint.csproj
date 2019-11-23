@@ -43,6 +43,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -64,6 +65,9 @@
     <Compile Include="MainControl.xaml.cs">
       <DependentUpon>MainControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SampleControl.xaml.cs">
+      <DependentUpon>SampleControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TestImageControl.xaml.cs">
       <DependentUpon>TestImageControl.xaml</DependentUpon>
     </Compile>
@@ -83,6 +87,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SampleControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TestImageControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -120,6 +128,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image\_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image0.jpg" />
+    <Resource Include="image\image1.jpg" />
+    <Resource Include="image\image2.jpg" />
+    <Resource Include="image\image3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image7.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

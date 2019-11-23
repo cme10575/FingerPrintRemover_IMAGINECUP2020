@@ -24,3 +24,5 @@ C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\App.baml
 C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\MainControl.baml
 C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\TestImageControl.baml
 C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\FingerDePrint.csproj.CopyComplete
+C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\SampleControl.g.cs
+C:\Users\KimSuJeong\source\repos\FingerDePrint\FingerDePrint\obj\Debug\SampleControl.baml

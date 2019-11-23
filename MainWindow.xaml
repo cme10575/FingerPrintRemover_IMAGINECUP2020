@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:FingerDePrint"
-         mc:Ignorable="d" Height="600" Width="1080"  MouseLeftButtonDown="Window_MouseLeftButtonDown" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+         mc:Ignorable="d" Height="600" Width="1080" MouseLeftButtonDown="Window_MouseLeftButtonDown" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
@@ -29,9 +29,6 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFFFFF">
-        <Grid.Effect>
-            <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
-        </Grid.Effect>
         <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="570" Width="1010">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -55,16 +52,13 @@
                 </Button>
                 <Button x:Name="btn_close" Click="Btn_close_Click" Width="40" Height="25" Background="Transparent" BorderBrush="{x:Null}">
                     <DockPanel>
-                        <materialDesign:PackIcon Kind="Close" Width="25" Height="25"/>
+                        <Image Source="image/x.png"/>
                     </DockPanel>
                 </Button>
             </StackPanel>
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" Foreground="Black">Finger De-Print</TextBlock>
         </Grid>
         <Grid x:Name="GridMenu" Width="70" HorizontalAlignment="Left" Background="#FFEEEEEE">
-            <Grid.Effect>
-                <DropShadowEffect BlurRadius="2" ShadowDepth="1" Color="#FFAEAEAE"/>
-            </Grid.Effect>
             <StackPanel>
                 <Grid Height="150" Background="White" RenderTransformOrigin="0.5,0.5">
                     <Grid.RenderTransform>
@@ -81,7 +75,6 @@
                     <Button x:Name="ButtonCloseMenu" Visibility="Collapsed" Height="60" Width="60" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF79379F" Click="ButtonCloseMenu_Click">
                         <materialDesign:PackIcon Kind="ArrowLeft" Width="25" Height="25"/>
                     </Button>
-
                     <Image Height="80" VerticalAlignment="Bottom"/>
                 </Grid>
                 <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
