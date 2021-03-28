@@ -1,1 +1,21 @@
 # FingerPrintRemover_IMAGINECUP2020
+
+
+![슬라이드1](https://user-images.githubusercontent.com/45962839/112743046-f0262a00-8fce-11eb-836c-d4f17bc9c42f.png)
+![슬라이드2](https://user-images.githubusercontent.com/45962839/112743047-f3b9b100-8fce-11eb-8a4d-f62b7001e1c3.png)
+![슬라이드3](https://user-images.githubusercontent.com/45962839/112743049-f4eade00-8fce-11eb-87d6-ff96d414c906.png)
+![슬라이드4](https://user-images.githubusercontent.com/45962839/112743050-f61c0b00-8fce-11eb-9ab7-54cd3046f6ff.png)
+![슬라이드5](https://user-images.githubusercontent.com/45962839/112743052-f74d3800-8fce-11eb-9289-868ecc49dafc.png)
+![슬라이드6](https://user-images.githubusercontent.com/45962839/112743053-f7e5ce80-8fce-11eb-89e3-461d978d69b6.png)
+![슬라이드7](https://user-images.githubusercontent.com/45962839/112743054-f87e6500-8fce-11eb-9219-7415092c9671.png)
+![슬라이드8](https://user-images.githubusercontent.com/45962839/112743055-f916fb80-8fce-11eb-9c5c-672933b11772.png)
+![슬라이드9](https://user-images.githubusercontent.com/45962839/112743057-f9af9200-8fce-11eb-9caf-12c6ed7dc216.png)
+![슬라이드10](https://user-images.githubusercontent.com/45962839/112743059-fa482880-8fce-11eb-897a-b6fc6446c435.png)
+![슬라이드11](https://user-images.githubusercontent.com/45962839/112743061-fa482880-8fce-11eb-9d31-dd72750ef072.png)
+![슬라이드12](https://user-images.githubusercontent.com/45962839/112743062-fae0bf00-8fce-11eb-8072-f100c6a0b4af.png)
+![슬라이드13](https://user-images.githubusercontent.com/45962839/112743063-fb795580-8fce-11eb-9c2f-77f49a5cb02b.png)
+![슬라이드14](https://user-images.githubusercontent.com/45962839/112743064-fb795580-8fce-11eb-980d-f65f9a238e1f.png)
+![슬라이드15](https://user-images.githubusercontent.com/45962839/112743066-fc11ec00-8fce-11eb-97cc-685da0a945cf.png)
+![슬라이드16](https://user-images.githubusercontent.com/45962839/112743067-fc11ec00-8fce-11eb-9b67-dd715a148fb3.png)
+![슬라이드17](https://user-images.githubusercontent.com/45962839/112743068-fcaa8280-8fce-11eb-8fc9-b6b338f3acbf.png)
+![슬라이드18](https://user-images.githubusercontent.com/45962839/112743069-fcaa8280-8fce-11eb-9689-f65fdfa96c02.png)
